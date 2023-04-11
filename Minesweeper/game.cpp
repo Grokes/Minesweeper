@@ -152,7 +152,7 @@ void PrintField(int** field, bool end)
 			if (field[i][j] == -2)
 				cout << " * |";
 			else if (field[i][j] == 0)
-				cout << "  | ";
+				cout << "   |";
 			else if (field[i][j] == -1 && !end)
 				cout << " * |";
 			else if (field[i][j] == -1 && end)
